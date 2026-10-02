@@ -13,7 +13,7 @@ Configuration (command-line arguments override environment variables):
     --port        / GTE_PORT          Port to listen on      (default: 80)
     --output-dir  / GTE_OUTPUT_DIR    Folder for log files   (default: ./received-payloads)
 """
-
+ 
 import argparse
 import ipaddress
 import json
